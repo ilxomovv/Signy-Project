@@ -48,7 +48,9 @@ body{
   border-top: 1px solid #1a2433; 
   padding-top: 20px;
 }
-
+.qq{
+    padding-right: 65px;
+}
 .bottom-wrap {
   display: flex;
   gap: 80px; 

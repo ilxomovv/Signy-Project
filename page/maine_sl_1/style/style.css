@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 104px;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  margin-top: 3px;
+}
+
+.imgnav {
+  width: 130px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.btn-login {
+  background: transparent;
+  border: 1.5px solid #0066ff;
+  color: #0066ff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.btn-register {
+  background-color: #0066ff;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px; 
+  cursor: pointer;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.lang-selector {
+  cursor: pointer;
+  font-size: 13px;
+  color: #333;
+  padding-left: 10px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 2.5px;
+  background-color: #0066ff; 
+}
+
+.headersec{
+    background-color: #DEEEFC;
+    padding-top: 25px;
+}
+.aa{
+    transform: rotate(180deg);
+    transform: scaleX(-1);
+
+}
+.borderrr{
+    font-size: 33px;
+    color: #1064E5;
+    padding-left: 3px;
+}
+.span2{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.spanczq2{
+    font-size: 33px;
+    color: #1064E5;
+    padding-left: 3px;
+}
+.span3{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.divcha{
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.headersec {
+    background-color: #DEEEFC;
+    position: relative;
+    overflow: hidden;
+    min-height: 750px;
+}
+
+.headsec2 {
+    display: block;
+    padding: 100px 104px;
+}
+
+.leftt {
+    max-width: 550px;
+    position: relative;
+    z-index: 10;
+}
+
+.aa {
+  position: absolute;
+  right: -50px;
+  bottom: -20px;
+  width: 950px;
+  height: auto;
+  pointer-events: none;
+  z-index: 1;      
+
+}
+
+.dots-container {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 20;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #0066ff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.dot.active {
+    background-color: #0066ff;
+}
+
+
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+
+.icon img {
+  width: 80px;
+  height: auto;
+}
+
+.content h2 {
+  color: #061224E5;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content p {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.4;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+
+.icon img {
+  width: 80px;
+  height: auto;
+}
+
+.content h2 {
+  color: #061224E5;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content p {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.4;
+}
+.card3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+
+.icon img {
+  width: 80px;
+  height: auto;
+}
+
+.content h2 {
+  color: #061224E5;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.content p {
+  margin: 10px 0 0 0;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.headersecbottom{
+  background-color: white;
+  display: flex;
+  gap: 50px;
+  padding-left: 220px;
+  margin-top: 54px;
+  margin-bottom: 75px;
+}
+@media (max-width: 1024px) {
+  .headersec { min-height: auto; }
+  .headsec2 { padding: 40px 20px; text-align: center; }
+  .leftt { max-width: 100%; margin-bottom: 30px; }
+  .aa {
+  position: static;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+    }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+  padding: 15px 30px; 
+        
+  .menu, .actions {
+      display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .imgnav {
+    width: 110px;
+}
+}
+
+
+/*# sourceMappingURL=style.css.map */
+

@@ -11,6 +11,7 @@ body {
   padding: 20px 100px;
   background-color: #fff;
   font-family: Arial, sans-serif;
+  margin-top: 25px;
 }
 
 .imgnav {
@@ -84,15 +85,15 @@ body {
   .navbar {
     padding: 15px 30px; 
 
-  .menu, .actions {
+.menu, .actions {
     display: none;
-  }
+}
 
-  .hamburger {
+.hamburger {
     display: flex;
-  }
+}
 
-  .imgnav {
+.imgnav {
     width: 110px;
-  }
+}
 }
